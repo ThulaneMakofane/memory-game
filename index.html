@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		<title>Memory Game</title>
+
+		<link rel="stylesheet" href="./styles/styles.css" />
+	</head>
+	<body>
+	
+		<div class="grid-dimension">
+			<h1>Choose a Grid Dimension</h1>
+			<button id="twobytwo">2X2</button>
+			<button id="threebytwo">3X2</button>
+			<button id="fourbythree">4X3</button>
+			<button id="quitgame">Exit</button>
+
+			<div class="timer" id="timer">00:00:00</div>
+
+			<div id="message-overlay">
+				<h1>WELL DONE!!</h1>
+				<h2>time taken to finish the game</h2>
+				<div class="time" id="time"></div>
+				<h2>Moves made</h2>
+				<div id="moves"></div>
+				<button id="restart">Play Again</button>
+			</div>
+		</div>
+
+		<section id="main-container">
+			<div id="board">
+				<div class="card" data-name="avo">
+					<img class="front" src="img/avo.png" alt="Aurelia" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+				<div class="card" data-name="berry">
+					<img class="front" src="img/berry.png" alt="Aurelia" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+
+				<div class="card" data-name="avo">
+					<img class="front" src="img/avo.png" alt="Vue" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+				<div class="card" data-name="mango">
+					<img class="front" src="img/mango.png" alt="Vue" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+
+				<div class="card" data-name="strewberry">
+					<img class="front" src="img/strewberry.png" alt="Angular" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+				<div class="card" data-name="mango">
+					<img class="front" src="img/mango.png" alt="Angular" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+
+				<div class="card" data-name="strewberry">
+					<img class="front" src="img/strewberry.png" alt="Ember" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+				<div class="card" data-name="watermelon">
+					<img class="front" src="img/watermelon.png" alt="Ember" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+
+				<div class="card" data-name="berry">
+					<img class="front" src="img/berry.png" alt="Backbone" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+				<div class="card" data-name="watermelon">
+					<img class="front" src="img/watermelon.png" alt="Backbone" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+
+				<div class="card" data-name="orange">
+					<img class="front" src="img/orange.png" alt="React" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+				<div class="card" data-name="orange">
+					<img class="front" src="img/orange.png" alt="React" />
+					<img class="back" src="img/question.png" alt="JS Badge" />
+				</div>
+			</div>
+
+			<script src="src/app.js"></script>
+		</section>
+		
+
+	</body>
+</html>
