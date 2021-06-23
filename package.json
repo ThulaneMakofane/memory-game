@@ -1,0 +1,28 @@
+{
+  "name": "thulane-makofane-222-memory-game-in-vanilla-js-javascript",
+  "version": "1.0.0",
+  "description": "memory game",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umuzi-org/Thulane-makofane-222-memory-game-in-vanilla-js-javascript.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Scott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umuzi-org/Thulane-makofane-222-memory-game-in-vanilla-js-javascript/issues"
+  },
+  "homepage": "https://github.com/Umuzi-org/Thulane-makofane-222-memory-game-in-vanilla-js-javascript#readme",
+  "devDependencies": {
+    "jasmine": "^3.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^16.5.3"
+  }
+}
